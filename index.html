@@ -5,34 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Repair design project</title>
+    <link rel="stylesheet" href="./src/landing.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@0;1&family=Yeseva+One&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="page">
     <header class="header">
-        <a class="header__logo" href="">IC "Repair Design Project"</a>
-        <nav>
-            <ul>
-                <li>HOME</li>
-                <li>PROJECTS</li>
-                <li>MEASUREMENT</li>
-                <li>TEAM</li>
-                <li>REVIEWS</li>
-                <li>CONTACTS</li>
-            </ul>
-        </nav>
-        <a href="">+7 (928) 768-32-39</a>
-        <button>Request a call</button>
+        <div class="header-container">
+            <div class="header__logo">
+                IC "Repair Design Project"
+            </div>
+            <nav>
+                <ul class="header__menu">
+                    <li class="header__menu-item"><a class="header__menu-link" href="#">HOME</a></li>
+                    <li class="header__menu-item"><a class="header__menu-link" href="#">PROJECTS</a></li>
+                    <li class="header__menu-item"><a class="header__menu-link" href="#">MEASUREMENT</a></li>
+                    <li class="header__menu-item"><a class="header__menu-link" href="#">TEAM</a></li>
+                    <li class="header__menu-item"><a class="header__menu-link" href="#">REVIEWS</a></li>
+                    <li class="header__menu-item"><a class="header__menu-link" href="#">CONTACTS</a></li>
+                </ul>
+            </nav>
+            <a class="header__phone" href="">+7 (928) 768-32-39</a>
+            <button class="header__button button">Request a call</button>
+        </div>
     </header>
     <main>
-        <section>
-            <div>
-                <h1>Turnkey Repair in the <br>city of Rostov-on-Don</h1>
-                <p>Get ready-made turnkey repairs on time<br>
+        <section class="section__main">
+            <div class="container section__main-container">
+                <h1 class="section__main-title title">Turnkey Repair in the <br>city of <span class="is-orange">Rostov-on-Don</span></h1>
+                <p class="section__main-paragraph">Get ready-made turnkey repairs on time<br>
                     with work time saving up to 45 days and 20% from<br>
                     cost of materials due to the organization of work</p>
-                <div>
-                    <button>CALCULATE THE COST</button>
-                    <button>SUBMIT YOUR APPLICATION</button>
-                </div>
+                <button class="section__main-button button">CALCULATE THE COST</button>
+                <button class="section__main-button button">SUBMIT YOUR APPLICATION</button>
             </div>
         </section>
     </main>
