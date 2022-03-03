@@ -1,0 +1,22 @@
+/*mobile--------------------------------------------------------------------------------------------------*/
+
+.header-container {
+    padding: 0 18px;
+}
+
+.header nav, .button {
+    display: none;
+}
+
+.header__phone {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.container {
+    padding: 0 18px;
+}
+
+.start__title {
+    
+}
