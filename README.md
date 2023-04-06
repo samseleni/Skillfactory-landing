@@ -1,1 +1,1 @@
-# Skillfactory-landing
+##Учебный проект Лендинг по макету в Figma с использованием html и css
